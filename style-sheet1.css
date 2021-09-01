@@ -1,0 +1,244 @@
+
+  body{
+    background-color:  black;
+    background-image: url(dice2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0PX;
+    margin: 0PX;
+  background-attachment: fixed;
+  justify-content: center;
+    align-items: center;
+
+  }
+
+
+  .part-home {
+    padding: 100px;
+    background-color: black;
+
+  }
+
+  img {
+
+    width:100%;
+    height:100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+
+}
+
+/*to make border inside image*/
+
+.bg-text {
+  font-family:Gabriola;
+  color: Silver;
+  font-weight: thin ;
+  position: absolute;
+  font-size: 50px;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index:2;
+  width: 60%;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* to sure tht text wright inside pic */
+
+.text {
+  position: relative;
+  text-align: center;
+
+}
+.centered {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  transform: translate(-10%);
+  color: darkGray;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*--------------------------------------------------*/
+/* orgnaize pic*/
+
+* {
+  box-sizing: border-box;
+}
+
+.pic ul{
+   margin:0px 55px 0px 145px;
+   padding:0;
+   display:flex;
+}
+.pic ul li{
+  list-style: none;
+  margin: 0 8px;
+  transition:0.5;
+}
+
+.pic ul li a{
+  margin-top: 20px;
+  display:block;
+  position:relative;
+  text-decoration: none;
+  padding:5px;
+  font-size: 15px;
+  font-family:papyrus;
+  color: DarkGray;
+  text-transform:uppercase;
+  transition:0.5s;
+}
+.pic ul:hover li a{
+  transform: scale(1.2);
+  opacity:.2;
+  filter:blur(5px);
+}
+
+.pic ul li a:hover{
+transform:scale(1.1);
+opacity:1;
+filter:blur(0);
+
+}
+.pic ul li a:before{
+  content:'';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+   transition:transform 0.5s;
+  transform-origin: right;
+  transform:scalex(0);
+  z-index:-1;
+}
+.pic ul li a:hover:before{
+ transition:transform 0.5s;
+  transform-origin:left;
+  transform:scalex(1);
+}
+
+/*------------------------------------------------*/
+/* footer*/
+
+
+
+.footer-min-div{
+width:100%;
+height:200px;
+margin:auto;
+padding: 20px 0px;
+
+}
+.footer-icons{
+  width:100%;
+  height:auto;
+  margin:auto;
+}
+.footer-icons ul{
+  margin: 0px;
+  padding: 0px;
+  text-align:center;
+}
+.footer-icons ul li{
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 15px 10px;
+  border-radius: 100%;
+  background:CORAL;
+
+}
+.footer-icons ul li a{
+  color:black;
+  font-size:25px;
+  display:block;
+}
+
+.footer-icons ul li a i{
+line-height: 50px;
+}
+.footer-menu{
+width: 100%;
+height: auto;
+margin: auto;
+margin-top:40px;
+}
+.footer-menu ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-menu ul li{
+  display: inline-block;
+  margin: 0px 20px;
+}
+.footer-menu ul li a{
+  font-size: 20px;
+  font-family:Segoe Script ;
+  font-weight: 600;
+  color:white;
+  text-transform: uppercase;
+}
+
+/*----------------------------------------------------*/
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-2{
+  float: left;
+  width: 50.66666%;
+  position: relative;
+  padding:10px 20px 15px 20px;
+  margin-top: 140px;
+  border-style: ;
+  border-width: ;
+  color:Silver;
+}
+
+.column-1{
+  float: left;
+  width: 33.33333%;
+  position: relative;
+  padding: 20px 20px 20px;
+}
+
+.texth{
+font-family:'kawkab-bold';
+ text-align: right;
+ color: Silver ;
+ font-size: 25px;
+ text-shadow: 15px 15px 30px LIGHTSALMON;}
+
+ .texth1{
+ font-family:'kawkab-bold';
+  margin-left:87px;
+  color: Silver ;
+  font-size: 15px;
+  text-shadow: 5px 5px 20px LIGHTSALMON;}
+
+ #one{
+    text-shadow: none;
+ }
+
+#imgh{
+
+  display: block;
+  height:400px;
+  width:185%;
+  margin-left:0px;
+  margin-top: 80px;
+}
